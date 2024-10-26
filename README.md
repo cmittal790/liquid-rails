@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/chamnap/liquid-rails.svg?branch=master)](https://travis-ci.org/yoolk/liquid-rails)[![Coverage Status](https://coveralls.io/repos/yoolk/liquid-rails/badge.png?branch=master)](https://coveralls.io/r/yoolk/liquid-rails?branch=master)[![Gem Version](https://badge.fury.io/rb/liquid-rails.svg)](http://badge.fury.io/rb/liquid-rails)
+[![Build Status](https://travis-ci.org/cmittal790/liquid-rails.svg?branch=master)](https://travis-ci.org/cmittal790/liquid-rails)[![Coverage Status](https://coveralls.io/repos/cmittal790/liquid-rails/badge.png?branch=master)](https://coveralls.io/r/cmittal790/liquid-rails?branch=master)[![Gem Version](https://badge.fury.io/rb/liquid-rails.svg)](http://badge.fury.io/rb/liquid-rails)
 # Liquid-Rails
 
 It allows you to render `.liquid` templates with layout and partial support. It also provides filters, tags, drops class to be used inside your liquid template.
@@ -59,15 +59,15 @@ You can render liquid templates from other template engines, eg. `erb`, `haml`, 
 
 Currently, **Liquid-Rails** adds only the followings:
 
-1. [AssetTagFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/asset_tag_filter.rb)
-2. [AssetUrlFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/asset_url_filter.rb)
-3. [DateFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/date_filter.rb)
-4. [NumberFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/number_filter.rb)
-5. [SanitizeFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/sanitize_filter.rb)
-6. [TextFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/text_filter.rb)
-7. [TranslateFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/translate_filter.rb)
-8. [UrlFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/url_filter.rb)
-9. [MiscFilter](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/filters/misc_filter.rb)
+1. [AssetTagFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/asset_tag_filter.rb)
+2. [AssetUrlFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/asset_url_filter.rb)
+3. [DateFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/date_filter.rb)
+4. [NumberFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/number_filter.rb)
+5. [SanitizeFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/sanitize_filter.rb)
+6. [TextFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/text_filter.rb)
+7. [TranslateFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/translate_filter.rb)
+8. [UrlFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/url_filter.rb)
+9. [MiscFilter](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/filters/misc_filter.rb)
 
 ### Tag
 
@@ -75,11 +75,11 @@ Currently, **Liquid-Rails** adds only the followings:
 
 Currently, **Liquid-Rails** adds only the followings:
 
-1. [csrf_meta_tags](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/tags/csrf_meta_tags.rb)
-2. [google_analytics_tag](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/tags/google_analytics_tag.rb)
-3. [javascript_tag](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/tags/javascript_tag.rb)
-4. [paginate](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/tags/paginate_tag.rb)
-4. [content_for](https://github.com/yoolk/liquid-rails/blob/master/lib/liquid-rails/tags/content_for.rb)
+1. [csrf_meta_tags](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/tags/csrf_meta_tags.rb)
+2. [google_analytics_tag](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/tags/google_analytics_tag.rb)
+3. [javascript_tag](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/tags/javascript_tag.rb)
+4. [paginate](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/tags/paginate_tag.rb)
+4. [content_for](https://github.com/cmittal790/liquid-rails/blob/master/lib/liquid-rails/tags/content_for.rb)
 
 ### Drop Class
 
@@ -105,7 +105,7 @@ class CommentDrop < Liquid::Rails::Drop
 end
 ```
 
-Check out more [examples](https://github.com/yoolk/liquid-rails/blob/master/spec/fixtures/poro.rb).
+Check out more [examples](https://github.com/cmittal790/liquid-rails/blob/master/spec/fixtures/poro.rb).
 
 It works for any ORMs. The PORO should include `Liquid::Rails::Droppable`. That's all you need to do to have your POROs supported.
 
@@ -139,8 +139,8 @@ end
 
 ## Contributors
 
-* [Radin Reth](https://github.com/radin-reth/)
 * [Chetan Mittal](https://github.com/cmittal790/)
+* [Radin Reth](https://github.com/radin-reth/)
 
 ## Authors
 
