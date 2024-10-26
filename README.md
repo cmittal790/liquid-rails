@@ -140,6 +140,7 @@ end
 ## Contributors
 
 * [Radin Reth](https://github.com/radin-reth/)
+* [Chetan Mittal](https://github.com/cmittal790/)
 
 ## Authors
 
