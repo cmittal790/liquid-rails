@@ -7,15 +7,11 @@ It allows you to render `.liquid` templates with layout and partial support. It 
 
 Add this line to your application's Gemfile:
 
-    gem 'liquid-rails'
+    gem "liquid-rails", github: "cmittal790/liquid-rails", branch: "master"
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install liquid-rails
+    $ bundle install
 
 ## Usage
 
